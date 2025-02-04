@@ -24,4 +24,5 @@ const currentTime = () => {
     document.getElementById('showTime').textContent = time;
 }
 
+// 関数の呼び出し
 setInterval(currentTime, 1000);
