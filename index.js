@@ -17,7 +17,9 @@ const currentTime = () => {
     ];
     const today = day[now.getDay()];
     const yearAndDays = `${year}年${month}月${date}日(${today})`
-    document.getElementById('days').textContent = yearAndDays;
+    const ddd = document.getElementById('days');
+    ddd.style.fontSize = '100px';
+    ddd.textContent = yearAndDays;
 
     const hour = now.getHours();
     const minute = String(now.getMinutes()).padStart(2, 0);
