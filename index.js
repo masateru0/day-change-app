@@ -5,6 +5,7 @@ const currentTime = () => {
     const year = now.getFullYear();
     const month = String(now.getMonth()).padStart(2, 0);
     const date = String(now.getDate()).padStart(2, 0);
+    // 日付変更した
     const day = [
         '日',
         '月',
